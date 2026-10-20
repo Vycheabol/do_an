@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HỆ THỐNG ẨN DANH HÓA DỮ LIỆU THÔNG MINH
 
 1. Giới thiệu
@@ -358,3 +359,6 @@ Target
 Quy tắc Generalization
 
 Đây cũng là một hướng có thể phát triển thêm sau này.
+=======
+# do_an
+>>>>>>> 32b84e14ae67d408f861c96f2bf48e98fba89669
