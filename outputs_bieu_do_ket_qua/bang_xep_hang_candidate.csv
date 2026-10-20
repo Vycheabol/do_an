@@ -1,0 +1,5 @@
+rank,strategy,age_level,hours_level,privacy_valid,suppression_percent,data_retention_percent,utility_score_percent,selection_score,eligible
+1,candidate_1,age3,hours3,True,6.01,93.99,97.41,95.7,True
+2,candidate_2,age3,hours2,True,5.27,94.73,96.44,95.59,True
+3,candidate_4,age_high,hours2,True,11.99,88.01,96.94,92.48,True
+4,candidate_3,age_high,hours3,True,12.98,87.02,97.46,92.24,True

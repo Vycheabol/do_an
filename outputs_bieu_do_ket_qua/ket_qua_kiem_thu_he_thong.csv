@@ -1,0 +1,11 @@
+test_id,test_name,expected_result,actual_result,status
+TC01,Dataset hợp lệ,Chạy thành công,"Release shape = (30604, 8)",PASS
+TC02,Sinh tự động 4 Candidate,Chạy thành công,Số Candidate = 4,PASS
+TC03,Dataset thiếu cột thu_nhap,Phải phát sinh KeyError,KeyError: 'Column not found: thu_nhap',PASS
+TC04,Dataset thiếu cột QI tuổi,Phải phát sinh KeyError,KeyError: 'tuoi',PASS
+TC05,Candidate thiếu age_level,Phải phát sinh ValueError,ValueError: strategy_config thiếu key 'age_level'.,PASS
+TC06,Candidate thiếu hours_level,Phải phát sinh ValueError,ValueError: strategy_config thiếu key 'hours_level'.,PASS
+TC07,age_level không hợp lệ,Phải phát sinh ValueError,ValueError: age_level phải là 'age3' hoặc 'age_high'.,PASS
+TC08,hours_level không hợp lệ,Phải phát sinh ValueError,ValueError: hours_level phải là 'hours3' hoặc 'hours2'.,PASS
+TC09,k_required bằng 0,Phải phát sinh ValueError,ValueError: k_required phải lớn hơn 0.,PASS
+TC10,l_required bằng 0,Phải phát sinh ValueError,ValueError: l_required phải lớn hơn 0.,PASS
